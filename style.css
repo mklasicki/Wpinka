@@ -97,6 +97,22 @@ body
   margin: 0 auto;
 }
 
+.bookmark {
+text-align: center;
+}
+
+.bookmark_header {
+    font-size: 80px;
+    
+
+}
+
+.bookmark_header::after,
+.bookmark_header::before {
+    content: " - ";
+    font-weight: normal;
+}
+
 
 .ad-tile img
 { 
@@ -109,14 +125,14 @@ body
 .ad-tile img
 {
     margin: 0 auto;
-    transition-duration: 2s;
+    transition-duration: 1s;
     transition-timing-function: ease-out;
 }
 
 .ad-tile img:hover
 {
     opacity: 0,7;
-    transform: scale(1.2);
+    transform: scale(1.1);
     cursor: pointer;  
 }
 
