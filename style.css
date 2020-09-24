@@ -63,6 +63,7 @@ body
 }
 
 
+
 .main-navigation {
     position: fixed;
     top:0px;
@@ -70,6 +71,9 @@ body
     right: 0px;
     background: rgb(0, 0, 0,0.5);
     padding: 20px;;
+    text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
 
 
 }
@@ -89,12 +93,24 @@ body
     font-size: 35px;
 }
 
+.main-navigation_link {
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+
+}
+
 .main-navigation_inner {
   display: flex;
   align-self: center;
- justify-content: space-around;
+  justify-content: space-between;
   max-width: 1350px;
   margin: 0 auto;
+}
+
+.main-navigation_item {
+    text-align: center;
 }
 
 .bookmark {
