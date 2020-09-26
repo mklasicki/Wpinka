@@ -231,3 +231,12 @@ body
 .gallery_image {
     width: 100%;
 }
+
+/* css for map */
+
+.map {
+    display: block;
+    width: 100%;
+    height: 50vh;
+    border: none;
+}
