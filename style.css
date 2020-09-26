@@ -238,3 +238,11 @@ body
     height: 50vh;
     border: none;
 }
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+}
