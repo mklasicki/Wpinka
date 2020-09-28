@@ -230,6 +230,49 @@ body
     width: 100%;
 }
 
+/* css for contact form */
+
+.container_contact{
+    width: 1180px;
+    margin: auto;
+    max-width: 100%;
+    padding: 60px 20px;
+}
+
+.contact-form_info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.contact-form_info-item {
+    display: flex;
+    align-items: center;
+    margin: 0 30px;
+
+}
+
+.contact-form_info-icon {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.contact-form_info-link {
+    color: black;
+    text-decoration: none;
+    font-size: 22px;
+
+}
+
+.contact-form_info-header {
+    text-align: center;
+    margin: 0 0 50px 0;
+    line-height: 1.5;
+    font-size: 20px;
+
+}
+
 /* css for map */
 
 .map {
