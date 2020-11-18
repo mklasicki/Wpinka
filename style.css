@@ -8,12 +8,14 @@ body
     font-size: 16px;
     font-family: 'Roboto Condensed', sans-serif;
     margin: 0;
+    padding: 0;
+    background-color: whitesmoke;
 }
 
 /* css for main banner section */
 
 .main-banner {
-    background: url("/img/Sokolik.jpg");
+    background: url("/img/main-baner.jpg");
     height: 100vh;
     background-position: center center;
     background-size: cover;
@@ -81,6 +83,7 @@ body
     text-transform: uppercase;
     text-decoration: none;
     text-align: center;
+    z-index: 2;
 }
 
 .main-navigation_logo {
@@ -94,7 +97,7 @@ body
     display:flex;
     align-items: center;
     text-transform: uppercase;
-    font-size: 35px;
+    font-size: 45px;
 }
 
 .main-navigation_link {
@@ -102,6 +105,7 @@ body
     color: white;
     display: flex;
     align-items: center;
+    font-size: 22px;
 }
 
 .main-navigation_inner {
@@ -127,12 +131,13 @@ body
 /* css for bookmarks  */
 
 .bookmark {
-   background-color: aqua;
+    background-color:rgba(0, 0, 0,0.2);
     background-size: cover;
     text-align: center;
     color: white;
     position: relative;
     z-index: 0;
+    border: 1px solid black;
 }
 
 .bookmark::after {  
