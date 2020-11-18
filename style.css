@@ -299,3 +299,13 @@ body
     justify-content: center;
     padding: 20px;
 }
+
+/* css for hovernig effect on images in gallery */
+
+.gallery_image {
+    transition: transform 1s;
+}
+
+.gallery_image:hover {
+   transform: scale(1.1) ;
+}
