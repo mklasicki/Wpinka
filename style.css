@@ -108,6 +108,11 @@ body
     font-size: 22px;
 }
 
+.main-navigation_link:hover {
+
+    color: black;
+}
+
 .main-navigation_inner {
   display: flex;
   align-self: center;
